@@ -1,4 +1,4 @@
-import { kda, shispare } from "../assets/images";
+import { designDistrict, kda, shispare } from "../assets/images";
 import {
   bookstore,
   chakraui,
@@ -116,7 +116,16 @@ export const experiences = [
     points: [
       "Developing and maintaining web and mobile applications using React.js and React Native and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "React Native Developer",
+    company_name: "Design District",
+    icon: designDistrict,
+    iconBg: "#88D8F3",
+    date: "Apr 2024 - Present",
+    points: [
+      "Diving into React Native development, ready to learn and start making a difference right away.",
     ],
   },
 ];
